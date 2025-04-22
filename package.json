@@ -1,9 +1,11 @@
 {
-  "name": "meu-scraper",
+  "name": "uniswap-scraper",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "postinstall": "puppeteer install"
+  },
   "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer-core": "^10.2.0"
+    "puppeteer": "^21.3.8"
   }
 }
