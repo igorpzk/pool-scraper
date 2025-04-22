@@ -2,9 +2,6 @@
   "name": "uniswap-scraper",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "postinstall": "puppeteer install"
-  },
   "dependencies": {
     "puppeteer": "^21.3.8"
   }
